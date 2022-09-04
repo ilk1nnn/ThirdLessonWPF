@@ -1,0 +1,302 @@
+﻿<Window x:Class="ThirdLessonWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ThirdLessonWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+
+    <Grid>
+
+
+        <!--<Button
+            Width="200"
+            Height="100"
+            Content="Hello"
+            FontSize="28"
+            FontWeight="ExtraBlack"
+            FontFamily="Comic Sans MS"
+            Background="White"
+            BorderBrush="Pink"
+            BorderThickness="10">
+            <Button.BitmapEffect>
+                <DropShadowBitmapEffect
+                    Color="Orange"
+                    Softness="1"
+                    ShadowDepth="10"
+                    Opacity="1"
+                    >
+                    
+                </DropShadowBitmapEffect>
+            </Button.BitmapEffect>
+            
+        </Button>-->
+
+
+
+
+
+        <!--<Grid 
+            Width="100"
+            Height="100"
+            Background="DeepSkyBlue">
+            <CheckBox  Width="50"
+                       Height="50"
+                       IsChecked="False"
+                       Foreground="Red"
+                       Background="SpringGreen"
+                       BorderBrush="Pink"
+                >
+                <CheckBox.RenderTransform>
+                    <ScaleTransform ScaleX="3"
+                                    ScaleY="3">
+                        
+                    </ScaleTransform>
+                </CheckBox.RenderTransform>
+            </CheckBox>
+            
+        </Grid>-->
+
+
+
+
+
+
+        <!--<Border CornerRadius="50"
+                Width="100"
+                Height="100"
+                Background="SpringGreen">
+            <CheckBox Width="100"
+                      Height="100"
+                      IsChecked="False"
+                      Foreground="Red"
+                      Background="SpringGreen"
+                      Margin="25,30">
+                <CheckBox.RenderTransform>
+                    <ScaleTransform ScaleX="3"
+                                    ScaleY="3">
+                        
+                    </ScaleTransform>
+                </CheckBox.RenderTransform>
+            </CheckBox>
+        </Border>-->
+
+
+
+        <!--<StackPanel Margin="30">
+            <RadioButton Background="Aqua"
+                         Foreground="Red"
+                         BorderBrush="Blue"
+                         Content="Baku"
+                         >
+                
+            </RadioButton>
+            <RadioButton Background="Aqua"
+                         Foreground="Red"
+                         BorderBrush="Blue"
+                         Content="Ganja"
+                         >
+
+            </RadioButton>
+            <RadioButton Background="Aqua"
+                         Foreground="Red"
+                         BorderBrush="Blue"
+                         Content="Sumqayit"
+                         >
+
+            </RadioButton>
+        </StackPanel>-->
+
+
+
+
+
+
+        <!--<StackPanel Margin="30">
+            <RadioButton Background="Aqua"
+                         Foreground="Red"
+                         BorderBrush="Blue"
+                         Content="Russian"
+                         GroupName="Languages"
+                         >
+
+            </RadioButton>
+            <RadioButton Background="Aqua"
+                         Foreground="Red"
+                         BorderBrush="Blue"
+                         Content="English"
+                         GroupName="Languages"
+                         >
+
+            </RadioButton>
+            <RadioButton Background="Aqua"
+                         Foreground="Red"
+                         BorderBrush="Blue"
+                         Content="Visa"
+                         GroupName="Cards"
+                         >
+
+            </RadioButton>
+            <RadioButton Background="Aqua"
+                         Foreground="Red"
+                         BorderBrush="Blue"
+                         Content="Master"
+                         GroupName="Cards"
+                         >
+
+            </RadioButton>
+        </StackPanel>-->
+
+
+        <!--<Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+
+        <Grid>
+
+            <Button Background="Pink"
+                Name="btn"
+                Click="btn_Click"
+                Content="Number"
+                FontSize="30"
+                >
+
+            </Button>
+
+            <RepeatButton Grid.Row="0"
+                      Grid.Column="1"
+                      >
+
+            </RepeatButton>
+        </Grid>-->
+
+
+
+        <!--<Button Width="150"
+                Height="50"
+                Content="Hover Me"
+                ToolTipService.ShowDuration="2000"
+                Background="Red"
+                Foreground="White">
+            <Button.ToolTip>
+                <StackPanel>
+                    <Label FontSize="25"
+                           FontFamily="Comic Sans MS"
+                           >
+                        Olalalala
+                        
+                    </Label>
+                    <Image Width="250"
+                           Height="250"
+                           Source="images\mario.png"></Image>
+                    <Line Stroke="DeepPink" 
+                          StrokeThickness="15"
+                          X1="0"
+                          X2="250"></Line>
+                </StackPanel>
+            </Button.ToolTip>
+        </Button>-->
+
+
+
+        <!--<Frame Name="myframe" Background="Red">
+            
+        </Frame>
+        <StackPanel>
+            <TextBox Name="txtbox"></TextBox>
+            <Button Click="Button_Click">CLick me</Button>
+        </StackPanel>-->
+
+        
+        
+        
+        
+        <!--<ScrollViewer>
+
+            <StackPanel Margin="20">
+
+                <GroupBox Header="Language" 
+                  Padding="25"
+                  Height="150"
+                  BorderBrush="White"
+                  BorderThickness="5">
+                    <StackPanel>
+                        <CheckBox>I know English</CheckBox>
+                        <CheckBox>I know Russian</CheckBox>
+                        <CheckBox>I know Azerbaijani</CheckBox>
+                    </StackPanel>
+                </GroupBox>
+
+                <GroupBox Header="Language" 
+                  Padding="25"
+                  Height="150"
+                  BorderBrush="White"
+                  BorderThickness="5">
+                    <StackPanel>
+                        <CheckBox>I know English</CheckBox>
+                        <CheckBox>I know Russian</CheckBox>
+                        <CheckBox>I know Azerbaijani</CheckBox>
+                    </StackPanel>
+                </GroupBox>
+
+                <GroupBox Header="Language" 
+                  Padding="25"
+                  Height="150"
+                  BorderBrush="White"
+                  BorderThickness="5">
+                    <StackPanel>
+                        <CheckBox>I know English</CheckBox>
+                        <CheckBox>I know Russian</CheckBox>
+                        <CheckBox>I know Azerbaijani</CheckBox>
+                    </StackPanel>
+                </GroupBox>
+
+                <GroupBox Header="Language" 
+                  Padding="25"
+                  Height="150"
+                  BorderBrush="White"
+                  BorderThickness="5">
+                    <StackPanel>
+                        <CheckBox>I know English</CheckBox>
+                        <CheckBox>I know Russian</CheckBox>
+                        <CheckBox>I know Azerbaijani</CheckBox>
+                    </StackPanel>
+                </GroupBox>
+
+            </StackPanel>
+            
+        </ScrollViewer>-->
+
+
+
+        <ScrollViewer>
+            <StackPanel>
+                <Expander Header="Languages"
+                          Padding="5"
+                          Height="150"
+                          BorderBrush="DeepPink"
+                          BorderThickness="5">
+                    <StackPanel>
+                        <CheckBox>I know English</CheckBox>
+                        <CheckBox>I know Russian</CheckBox>
+                        <CheckBox>I know Azerbaijani</CheckBox>
+                    </StackPanel>
+                </Expander>
+            </StackPanel>
+        </ScrollViewer>
+
+
+    </Grid>
+
+
+</Window>
